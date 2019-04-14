@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<center><h1>Rabobank Customer Transction Statement Processor</h1></center>
+<h3>Upload a file in the format(XML/CSV)</h3>
+
+<form method="POST" action="/fileUpload" enctype="multipart/form-data">
+    <input type="file" name="file" /><br/><br/>
+    <input type="submit" value="Submit" />
+</form>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<body>
+
+
+<div th:if="${message}">
+    <h2 th:text="${message}"/>
+</div>
+
+<div th:unless="${message}">
+ <h3>Invalid transactions in MT940 file</h3>
+</div>
+
+<div th:if="${triggerOption}">
+<form method="POST" action="/triggerJob">
+    <label>Please click the button to trigger the Job : </label><input type="submit" value="Trigger a Job" />
+</form>
+</div>
+
+</body>
+</html>
