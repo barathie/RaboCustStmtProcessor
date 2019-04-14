@@ -37,7 +37,7 @@ Right click the project root folder -> Maven -> Spring Boot App
 
 
 ---- RUN FROM COMMANDLINE ----
-
+Unzip the file RaboCustStmtProcessor-1.0.0.zip
 Place the Jar in a directory.
 Run the following command from the same place
 
